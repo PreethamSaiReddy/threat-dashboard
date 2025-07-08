@@ -1,24 +1,44 @@
-# Threat Intelligence Dashboard
+# 🛡️ Cyber Threat Intelligence Dashboard
 
-A full-stack web application that visualizes cyber threat intelligence data using Flask (backend), MongoDB (database), and React (frontend).
-
----
-
-## 🔧 Tech Stack
-- **Backend:** Python, Flask, Pandas, MongoDB
-- **Frontend:** React (Vite), JavaScript, Recharts
-- **Database:** MongoDB
-- **Data Source:** [NLP Cybersecurity Dataset on Kaggle](https://www.kaggle.com/datasets/hussainsheikh03/nlp-based-cyber-security-dataset)
+A full‑stack web application for visualizing and analyzing cyber threat data.
 
 ---
 
-## 🚀 Features
-- View threat records from MongoDB
-- Search/filter by category or location
-- View severity & category graphs using charts
-- Built with modular components
+## Stack 🧱
+
+- **Frontend**: React (via Vite)
+- **Backend**: Flask (Python)
+- **Database**: MongoDB
+- **Containerization**: Docker & Docker Compose
 
 ---
 
-## 📂 Folder Structure
+## Features
 
+- Displays a list of cyber threats with:
+  - Category (Malware, Phishing, Ransomware, DDoS, etc.)
+  - Cleaned description
+  - Severity score
+- Provides basic stats including:
+  - Total number of threats
+  - Distribution by category
+  - Distribution by severity
+- Server-side pagination & search/filter support
+- DB seeding with sample data
+- Full-stack containerized setup
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Docker & Docker Compose installed
+- Git
+
+### Clone and Run
+
+```bash
+git clone https://github.com/PreethamSaiReddy/threat-dashboard.git
+cd threat-dashboard
+docker-compose up --build
