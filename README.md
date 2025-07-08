@@ -27,7 +27,7 @@ A full‑stack web application for visualizing and analyzing cyber threat data.
 - DB seeding with sample data
 - Full-stack containerized setup
 
----
+--- 
 
 ## 🚀 Quick Start
 
